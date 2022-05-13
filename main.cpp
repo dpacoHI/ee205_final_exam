@@ -10,9 +10,9 @@ int main() {
               << string_length( hello ) << " characters"
               << std::endl;
 
-/*    std::cout << "trim_left( hello ) = ["
+    std::cout << "trim_left( hello ) = ["
               << trim_left( hello )
-              << "]" << std::endl;*/
+              << "]" << std::endl;
 
    // char buffer[32];
 

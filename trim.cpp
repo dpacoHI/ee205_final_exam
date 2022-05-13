@@ -13,18 +13,22 @@
 
 unsigned int string_length(const char inString[]) {
     unsigned int i;
-    for (i = 0; inString[i] != '\0'; i++){};
+    if(inString == nullptr){
+        return 0;
+    } else {
+        for (i = 0; inString[i] != '\0'; i++) {};
+    }
     return i;
 }
 
-/*const char* trim_left(const char inString[]){
-    int j;
-    for(j = 0; inString[j] < 19; j++){
-        if (inString[j] == '-'){
-            return static_cast<const char *>('\0');
-        } else {
-            return inString[j];
-        }
+const char* trim_left(const char inString[]){
+    unsigned int j;
+
+    for(j = 0; inString[j] != 'H'; j++){
+        return "\0";
     }
-    return 0;
-}*/
+}
+
+char* map_chars(const char inString[], char buffer[]){
+
+}
