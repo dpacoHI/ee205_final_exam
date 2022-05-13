@@ -22,13 +22,21 @@ unsigned int string_length(const char inString[]) {
 }
 
 const char* trim_left(const char inString[]){
-    unsigned int j;
+ /*   unsigned int j;
 
     for(j = 0; inString[j] != 'H'; j++){
         return "\0";
     }
+    while(inString[j] != '\0'){
+        return &inString[j];
+        j++;
+    }*/
 }
 
 char* map_chars(const char inString[], char buffer[]){
-
+  /*  switch(inString[]){
+        case 'a' : return "n";
+        case 'b' : return "p";
+        case 'c' : return "j";
+    }*/
 }
